@@ -1,7 +1,9 @@
-package com.example.productsdb;
+package com.example.productsdb.controller;
 
 import java.util.List;
 
+import com.example.productsdb.domain.Product;
+import com.example.productsdb.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
